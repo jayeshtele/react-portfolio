@@ -12,8 +12,14 @@
 :root {
     font-size: 16px;
     --font-family: 'Playfair Display', serif;
+    --sidenav-color: linear-gradient(269.57deg, rgba(15, 16, 20, .95) 16.24%, rgba(15, 16, 20, 0) 98.46%);
+    --background-color: rgb(15,
+            16, 20);
+    --text-color: #f4f4f4;
 }
 
 body {
     box-sizing: border-box;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
