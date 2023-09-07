@@ -15,6 +15,7 @@
     --background-color: #0f1014;
     --text-color: #f4f4f4;
     --nav-icons-color: #777;
+    --container-section-color: #f52225;
 }
 
 body {
@@ -25,8 +26,8 @@ body {
 
 .hero-section {
     width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to right, #0f1014 10%, transparent), url("../public/assets/computer.jpg");
+    height: 100vh;
+    background-image: linear-gradient(to top right, #0f1014 10%, transparent), url("https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1812&q=80");
     background-size: cover;
     background-position: center;
 }
@@ -42,8 +43,8 @@ body {
 }
 
 .sidenav-icons-hover:hover {
-    transform: scale(1.1) translateX(2px);
-    color: #f4f4f4;
+    transform: scale(1.3) translateX(2px);
+    color: var(--text-color);
 }
 
 .sidenav-icons-hover span {
@@ -51,4 +52,18 @@ body {
     transform: translateX(25px);
     transition: all 0.2s ease-out;
 
+}
+
+.sidenav::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    z-index: 9;
+    transition: all 0.2s ease-out;
+}
+
+.sidenav:hover::before {
+    box-shadow: 10px 0 150px 200px var(--background-color);
 }
