@@ -14,10 +14,41 @@
     --font-family: 'Playfair Display', serif;
     --background-color: #0f1014;
     --text-color: #f4f4f4;
+    --nav-icons-color: #777;
 }
 
 body {
     box-sizing: border-box;
     background-color: var(--background-color);
     color: var(--text-color);
+}
+
+.hero-section {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #0f1014 10%, transparent), url("../public/assets/computer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sidenav-icons:hover .sidenav-icons-hover span {
+    visibility: visible;
+    transform: translateX(45px);
+}
+
+.sidenav-icons-hover {
+    color: var(--nav-icons-color);
+    transition: all 0.3s ease-out;
+}
+
+.sidenav-icons-hover:hover {
+    transform: scale(1.1) translateX(2px);
+    color: #f4f4f4;
+}
+
+.sidenav-icons-hover span {
+    visibility: hidden;
+    transform: translateX(25px);
+    transition: all 0.2s ease-out;
+
 }
