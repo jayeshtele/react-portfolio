@@ -9,11 +9,11 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function SideNav() {
   return (
-    <div className="flex w-[7%] flex-col items-center justify-around">
-      <figure className="w-[60%] cursor-pointer">
+    <div className="sidenav relative flex w-[7%] flex-col items-center justify-around">
+      <figure className="z-10 w-[60%] cursor-pointer">
         <img className="rounded-full" src="/assets/Profile.png" alt="Profile" />
       </figure>
-      <div className="sidenav-icons w-full cursor-pointer">
+      <div className="sidenav-icons z-10 w-full cursor-pointer">
         <div className="sidenav-icons-hover relative  flex items-center justify-center">
           <HomeIcon />
           <span className="absolute left-6 inline-block">Home</span>
@@ -36,17 +36,15 @@ export default function SideNav() {
         </div>
       </div>
 
-      <div className="sidenav-icons w-full cursor-pointer">
+      <div className="sidenav-icons z-10 w-full cursor-pointer">
         <div className="sidenav-icons-hover relative flex items-center justify-center">
           <GitHubIcon />
           <span className="absolute left-6 inline-block">Services</span>
         </div>
-        <div className="sidenav-icons-hover relative flex items-center justify-center mt-10">
-        <LinkedInIcon  />
+        <div className="sidenav-icons-hover relative mt-10 flex items-center justify-center">
+          <LinkedInIcon />
           <span className="absolute left-6 inline-block">LinkedIn</span>
         </div>
-
-       
       </div>
     </div>
   );
