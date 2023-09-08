@@ -6,7 +6,7 @@ import Projects from "./Projects";
 
 export default function Container() {
   return (
-    <div className="h-full w-full">
+    <div className="h-screen w-full overflow-y-auto">
       <HeroSection />
       <AboutMe />
       <Certificate />
