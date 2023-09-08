@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <div className="hero-section flex flex-col justify-center">
+    <div className="hero-section flex flex-col justify-center pl-5">
       <h2 className="text-5xl">Hi! I'm Jayesh</h2>
       <h1 className="my-5 text-8xl font-semibold">
         Front-End Web Developer
