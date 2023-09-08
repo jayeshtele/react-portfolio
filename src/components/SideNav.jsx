@@ -9,7 +9,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function SideNav() {
   return (
-    <div className="sidenav relative flex w-[7%] flex-col items-center justify-around">
+    <div className="sidenav relative flex w-[7%] flex-col items-center justify-around h-screen">
       <figure className="z-10 w-[60%] cursor-pointer">
         <img className="rounded-full" src="/assets/Profile.png" alt="Profile" />
       </figure>
