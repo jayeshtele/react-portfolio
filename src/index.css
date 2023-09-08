@@ -32,38 +32,50 @@ body {
     background-position: center;
 }
 
-.sidenav-icons:hover .sidenav-icons-hover span {
-    visibility: visible;
-    transform: translateX(45px);
+@media (min-width: 1024px) {
+
+    .sidenav-icons:hover .sidenav-icons-hover span {
+        visibility: visible;
+        transform: translateX(45px);
+    }
+
+    .sidenav-icons-hover {
+        color: var(--nav-icons-color);
+        transition: all 0.3s ease-out;
+    }
+
+    .sidenav-icons-hover:hover {
+        transform: scale(1.3) translateX(2px);
+        color: var(--text-color);
+    }
+
+    .sidenav-icons-hover span {
+        visibility: hidden;
+        transform: translateX(25px);
+        transition: all 0.2s ease-out;
+
+    }
+
+    .sidenav::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: var(--background-color);
+        z-index: 9;
+        transition: all 0.2s ease-out;
+    }
+
+    .sidenav:hover::before {
+        box-shadow: 10px 0 150px 200px var(--background-color);
+    }
 }
 
 .sidenav-icons-hover {
     color: var(--nav-icons-color);
-    transition: all 0.3s ease-out;
-}
-
-.sidenav-icons-hover:hover {
-    transform: scale(1.3) translateX(2px);
-    color: var(--text-color);
 }
 
 .sidenav-icons-hover span {
-    visibility: hidden;
     transform: translateX(25px);
-    transition: all 0.2s ease-out;
-
-}
-
-.sidenav::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: var(--background-color);
-    z-index: 9;
-    transition: all 0.2s ease-out;
-}
-
-.sidenav:hover::before {
-    box-shadow: 10px 0 150px 200px var(--background-color);
+    visibility: hidden;
 }
