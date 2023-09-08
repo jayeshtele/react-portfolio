@@ -6,7 +6,6 @@ import CodeIcon from "@mui/icons-material/Code";
 import DesignServicesIcon from "@mui/icons-material/DesignServices";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { Link } from "react-scroll";
 
 export default function SideNav() {
   return (
@@ -56,21 +55,11 @@ export default function SideNav() {
 
       <div className="mob-nav fixed bottom-0 z-10 w-full bg-[#0f1014] py-5 text-[#777] md:hidden">
         <div className="flex justify-evenly">
-          <Link to="hero" spy={true} smooth={true} offset={50} duration={500}>
-            <HomeIcon />
-          </Link>
-          <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-            <InfoIcon />
-          </Link>
-          <Link to="certificate" spy={true} smooth={true} offset={50} duration={500}>
-            <EmojiEventsIcon />
-          </Link>
-          <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
-            <CodeIcon />
-          </Link>
-          <Link to="services" spy={true} smooth={true} offset={50} duration={500}>
-            <DesignServicesIcon />
-          </Link>
+          <HomeIcon />
+          <InfoIcon />
+          <EmojiEventsIcon />
+          <CodeIcon />
+          <DesignServicesIcon />
         </div>
       </div>
     </>
