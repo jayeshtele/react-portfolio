@@ -15,7 +15,7 @@ export default function HeroSection() {
           Web Designs that improves the lives of those around me.
         </span>
       </p>
-      <button className="mt-10 self-start rounded-xl bg-[rgba(119,119,119,0.2)] px-[8rem] py-3 text-left text-xl font-semibold duration-500 ease-out hover:bg-[rgba(119,119,119,0.5)]">
+      <button className="mt-10 self-start rounded-xl bg-[rgba(119,119,119,0.2)] px-[8rem] py-3 text-left text-xl font-semibold hover:bg-[rgba(119,119,119,0.5)] duration-500 ease-out">
         My Work
       </button>
     </div>

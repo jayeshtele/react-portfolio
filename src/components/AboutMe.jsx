@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function AboutMe() {
+export default function AboutMe({ targetSectionRef }) {
   return (
-    <div>
+    <div id="about" ref={targetSectionRef} className="h-full w-full">
       About Me
     </div>
-  )
+  );
 }
