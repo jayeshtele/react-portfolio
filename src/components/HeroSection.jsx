@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 export default function HeroSection() {
   return (
-    <div className="hero-section relative flex flex-col justify-center px-5">
+    <div id="hero" className="hero-section relative flex flex-col justify-center px-5">
       <div className="md:hidden">
         <figure className="absolute top-3 z-10 w-[10%] cursor-pointer">
           <img
