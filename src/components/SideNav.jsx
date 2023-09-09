@@ -3,7 +3,6 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import CodeIcon from "@mui/icons-material/Code";
-import DesignServicesIcon from "@mui/icons-material/DesignServices";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { NavLink } from "react-router-dom";
