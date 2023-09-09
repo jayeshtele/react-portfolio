@@ -51,7 +51,12 @@ export default function Projects() {
                   >
                     {js?.linkIcon}
                   </a>
-                  <a className=" p-2 text-black shadow-xl shadow-black" href={js?.gitHubPath}>{js?.gitHubIcon}</a>
+                  <a
+                    className=" p-2 text-black shadow-xl shadow-black"
+                    href={js?.gitHubPath}
+                  >
+                    {js?.gitHubIcon}
+                  </a>
                 </div>
               </React.Fragment>
             ))}
@@ -74,7 +79,12 @@ export default function Projects() {
                   >
                     {hc?.linkIcon}
                   </a>
-                  <a className=" p-2 text-black shadow-xl shadow-black" href={hc?.gitHubPath}>{hc?.gitHubIcon}</a>
+                  <a
+                    className=" p-2 text-black shadow-xl shadow-black"
+                    href={hc?.gitHubPath}
+                  >
+                    {hc?.gitHubIcon}
+                  </a>
                 </div>
               </React.Fragment>
             ))}
