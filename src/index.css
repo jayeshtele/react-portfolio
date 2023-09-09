@@ -11,7 +11,7 @@
 
 :root {
     font-size: 16px;
-    --font-family: 'Playfair Display', serif;
+    --playfair: 'Playfair Display', serif;
     --background-color: #0f1014;
     --text-color: #f4f4f4;
     --nav-icons-color: #777;
@@ -22,6 +22,7 @@ body {
     box-sizing: border-box;
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: var(--playfair);
 }
 
 .hero-section {
