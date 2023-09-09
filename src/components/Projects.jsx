@@ -12,7 +12,7 @@ export default function Projects() {
           Reactjs Projects
         </h3>
         <div className="mb-10 overflow-x-scroll">
-          <figure className="flex w-[30vw]">
+          <figure className="flex w-[70vw] md:w-[30vw]">
             {react.map((reactjs) => (
               <React.Fragment key={reactjs?.id}>
                 <img src={reactjs?.imagePath} alt="" />
@@ -40,7 +40,7 @@ export default function Projects() {
           Javascript Projects
         </h3>
         <div className="mb-10 overflow-x-scroll">
-          <figure className="flex w-[30vw]">
+          <figure className="flex w-[70vw] md:w-[30vw]">
             {javascript.map((js) => (
               <React.Fragment key={js?.id}>
                 <img src={js?.imagePath} alt="" />
@@ -68,7 +68,7 @@ export default function Projects() {
           HTML & CSS Projects
         </h3>
         <div className="mb-10 overflow-x-scroll">
-          <figure className="flex w-[30vw]">
+          <figure className="flex w-[70vw] md:w-[30vw]">
             {htmlCss.map((hc) => (
               <React.Fragment key={hc?.id}>
                 <img src={hc?.imagePath} alt="" />
