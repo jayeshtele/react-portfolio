@@ -80,3 +80,18 @@ body {
     transform: translateX(25px);
     visibility: hidden;
 }
+
+.active {
+    color: var(--text-color);
+}
+
+.active::before {
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    background: transparent;
+    width: 0px;
+    height: 0px;
+    z-index: -1;
+    box-shadow: 0 0 10px 20px rgb(99, 94, 94);
+}
