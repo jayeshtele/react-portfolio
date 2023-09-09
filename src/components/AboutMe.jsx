@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="h-full w-full mb-10">
+    <div id="about" className="h-full w-full mb-10">
       <h3 className="pb-5 text-2xl font-bold tracking-widest">About Me</h3>
       <div className="grid md:gap-5 lg:grid-cols-2">
         <div className="bg-[rgba(119,119,119,0.1)] md:p-10 p-3">
