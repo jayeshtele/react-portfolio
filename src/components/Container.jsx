@@ -6,7 +6,7 @@ import Projects from "./Projects";
 
 export default function Container() {
   return (
-    <div className="h-screen w-full overflow-y-auto">
+    <div className="h-screen w-full overflow-y-scroll pb-[3rem] md:pb-0">
       <HeroSection />
       <div className="px-5">
         <AboutMe />
