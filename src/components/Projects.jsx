@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 export default function Projects() {
   return (
     <>
-      <div className="react-projects">
+      <div id="projects" className="react-projects">
         <h3 className="pb-5 text-2xl font-bold tracking-widest">Projects</h3>
         <h3 className="pb-2 font-bold tracking-wide text-[#c3c7d6] ">
           Reactjs Projects
