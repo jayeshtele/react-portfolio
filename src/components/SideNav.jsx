@@ -6,6 +6,7 @@ import CodeIcon from "@mui/icons-material/Code";
 import DesignServicesIcon from "@mui/icons-material/DesignServices";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { NavLink } from "react-router-dom";
 
 export default function SideNav() {
   return (
@@ -42,14 +43,22 @@ export default function SideNav() {
         </div>
 
         <div className="sidenav-icons z-10 w-full cursor-pointer">
-          <div className="sidenav-icons-hover relative flex items-center justify-center">
+          <NavLink
+            to="https://github.com/jayeshtele"
+            target="_blank"
+            className="sidenav-icons-hover relative flex items-center justify-center"
+          >
             <GitHubIcon />
             <span className="absolute left-6 inline-block">Services</span>
-          </div>
-          <div className="sidenav-icons-hover relative mt-10 flex items-center justify-center">
+          </NavLink>
+          <NavLink
+            to="https://www.linkedin.com/in/jayesh-tele-9150711b3/"
+            target="_blank"
+            className="sidenav-icons-hover relative mt-10 flex items-center justify-center"
+          >
             <LinkedInIcon />
             <span className="absolute left-6 inline-block">LinkedIn</span>
-          </div>
+          </NavLink>
         </div>
       </div>
 
