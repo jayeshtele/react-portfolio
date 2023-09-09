@@ -2,11 +2,11 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <div className="h-full w-full">
-      <h3 className="pb-5 text-2xl font-bold">About Me</h3>
+    <div className="h-full w-full mb-10">
+      <h3 className="pb-5 text-2xl font-bold tracking-widest">About Me</h3>
       <div className="grid md:gap-5 lg:grid-cols-2">
         <div className="bg-[rgba(119,119,119,0.1)] md:p-10 p-3">
-          <h3 className="pb-5 text-xl font-semibold">Education</h3>
+          <h3 className="pb-5 text-xl font-semibold tracking-widest">Education</h3>
           <p className="font-bold text-[#a9afc3]">2023</p>
           <h2 className="pb-5 md:text-xl">
             B.Tech in Mechanical Engineering -{" "}
@@ -31,7 +31,7 @@ export default function AboutMe() {
           </h2>
         </div>
         <div className="bg-[rgba(119,119,119,0.1)] md:p-10 p-5">
-          <h3 className="pb-5 text-xl font-semibold">Coding Skills</h3>
+          <h3 className="pb-5 text-xl font-semibold tracking-widest">Coding Skills</h3>
           <figure className="grid grid-cols-5 sm:grid-cols-9 gap-5 lg:grid-cols-4 lg:gap-10 xl:grid-cols-5">
             <img className="w-full" src="/logos/html.png" alt="" />
             <img className="w-full" src="/logos/css.png" alt="" />
