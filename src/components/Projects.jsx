@@ -2,6 +2,7 @@ import React from "react";
 import { react } from "../ImagesPath";
 import { javascript } from "../ImagesPath";
 import { htmlCss } from "../ImagesPath";
+import { NavLink } from "react-router-dom";
 
 export default function Projects() {
   return (
@@ -17,18 +18,20 @@ export default function Projects() {
               <React.Fragment key={reactjs?.id}>
                 <img src={reactjs?.imagePath} alt="" />
                 <div className="icons mr-5 flex flex-col justify-around bg-red-200 px-2">
-                  <a
+                  <NavLink
                     className="inline-block border-none p-2 text-blue-800 shadow-xl shadow-blue-800"
-                    href={reactjs?.linkPath}
+                    to={reactjs?.linkPath}
+                    target="_blank"
                   >
                     {reactjs?.linkIcon}
-                  </a>
-                  <a
+                  </NavLink>
+                  <NavLink
                     className=" p-2 text-black shadow-xl shadow-black"
-                    href={reactjs?.gitHubPath}
+                    to={reactjs?.gitHubPath}
+                    target="_blank"
                   >
                     {reactjs?.gitHubIcon}
-                  </a>
+                  </NavLink>
                 </div>
               </React.Fragment>
             ))}
@@ -45,18 +48,20 @@ export default function Projects() {
               <React.Fragment key={js?.id}>
                 <img src={js?.imagePath} alt="" />
                 <div className="icons mr-5 flex flex-col justify-around bg-red-200 px-2">
-                  <a
+                  <NavLink
                     className="inline-block border-none p-2 text-blue-800 shadow-xl shadow-blue-800"
-                    href={js?.linkPath}
+                    to={js?.linkPath}
+                    target="_blank"
                   >
                     {js?.linkIcon}
-                  </a>
-                  <a
+                  </NavLink>
+                  <NavLink
                     className=" p-2 text-black shadow-xl shadow-black"
-                    href={js?.gitHubPath}
+                    to={js?.gitHubPath}
+                    target="_blank"
                   >
                     {js?.gitHubIcon}
-                  </a>
+                  </NavLink>
                 </div>
               </React.Fragment>
             ))}
@@ -73,18 +78,20 @@ export default function Projects() {
               <React.Fragment key={hc?.id}>
                 <img src={hc?.imagePath} alt="" />
                 <div className="icons mr-5 flex flex-col justify-around bg-red-200 px-2">
-                  <a
+                  <NavLink
                     className="inline-block border-none p-2 text-blue-800 shadow-xl shadow-blue-800"
-                    href={hc?.linkPath}
+                    to={hc?.linkPath}
+                    target="_blank"
                   >
                     {hc?.linkIcon}
-                  </a>
-                  <a
+                  </NavLink>
+                  <NavLink
                     className=" p-2 text-black shadow-xl shadow-black"
-                    href={hc?.gitHubPath}
+                    to={hc?.gitHubPath}
+                    target="_blank"
                   >
                     {hc?.gitHubIcon}
-                  </a>
+                  </NavLink>
                 </div>
               </React.Fragment>
             ))}
