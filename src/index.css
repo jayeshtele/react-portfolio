@@ -100,7 +100,7 @@ body {
     visibility: hidden;
 }
 
-.active {
+/* .active {
     color: var(--text-color);
 }
 
@@ -113,4 +113,4 @@ body {
     height: 0px;
     z-index: -1;
     box-shadow: 0 0 10px 20px rgb(99, 94, 94);
-}
+} */
