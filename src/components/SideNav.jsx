@@ -21,6 +21,7 @@ export default function SideNav() {
         </figure>
         <div className="sidenav-icons z-10 w-full cursor-pointer">
           <HashLink
+            activeClassName="selected"
             to="#hero"
             smooth
             className="sidenav-icons-hover relative  flex items-center justify-center"
@@ -29,6 +30,7 @@ export default function SideNav() {
             <span className="absolute left-6 inline-block">Home</span>
           </HashLink>
           <HashLink
+            activeClassName="selected"
             to="#about"
             smooth
             className="sidenav-icons-hover relative  my-10 flex items-center justify-center"
@@ -37,6 +39,8 @@ export default function SideNav() {
             <span className="absolute left-6 inline-block">About</span>
           </HashLink>
           <HashLink
+            activeClassName="selected"
+
             to="#certificate"
             smooth
             className="sidenav-icons-hover relative flex items-center justify-center"
@@ -45,6 +49,8 @@ export default function SideNav() {
             <span className="absolute left-6 inline-block">Certificate</span>
           </HashLink>
           <HashLink
+            activeClassName="selected"
+
             to="#projects"
             smooth
             className="sidenav-icons-hover relative my-10 flex items-center justify-center"
