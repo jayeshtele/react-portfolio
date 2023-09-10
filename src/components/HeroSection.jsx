@@ -2,6 +2,7 @@ import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function HeroSection() {
   return (
@@ -39,9 +40,9 @@ export default function HeroSection() {
           Web Designs that improves the lives of those around me.
         </span>
       </p>
-      <button className="mt-5 self-start rounded-xl bg-[rgba(119,119,119,0.2)] px-[4rem] py-3 text-left font-semibold duration-500 ease-out hover:bg-[rgba(119,119,119,0.5)] xl:mt-10 xl:px-[8rem] xl:text-xl">
+      <HashLink to="#projects" smooth className="mt-5 self-start rounded-xl bg-[rgba(119,119,119,0.2)] px-[4rem] py-3 text-left font-semibold duration-500 ease-out hover:bg-[rgba(119,119,119,0.5)] xl:mt-10 xl:px-[8rem] xl:text-xl">
         My Work
-      </button>
+      </HashLink>
     </div>
   );
 }
