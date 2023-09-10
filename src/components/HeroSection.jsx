@@ -17,13 +17,13 @@ export default function HeroSection() {
         </figure>
         <div className="hero-logos absolute right-4 top-3 space-x-3">
           <NavLink to="https://github.com/jayeshtele" target="_blank">
-            <GitHubIcon />
+            <GitHubIcon sx={{fontSize:"30px"}} />
           </NavLink>
           <NavLink
             to="https://www.linkedin.com/in/jayesh-tele-9150711b3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlDa13SKwRLORK1NOJ0eUNg%3D%3D"
             target="_blank"
           >
-            <LinkedInIcon />
+            <LinkedInIcon sx={{fontSize:"30px"}} />
           </NavLink>
         </div>
       </div>
