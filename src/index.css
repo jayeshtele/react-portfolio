@@ -95,3 +95,22 @@ body {
     z-index: -1;
     box-shadow: 0 0 10px 20px rgb(99, 94, 94);
 }
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--nav-icons-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--nav-icons-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--nav-icons-color);
+}
