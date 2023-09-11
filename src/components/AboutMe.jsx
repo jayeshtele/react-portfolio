@@ -38,7 +38,7 @@ export default function AboutMe() {
             <img className="w-full" src="/logos/javascript.png" alt="" />
             <img className="w-full" src="/logos/bootstrap-5.png" alt="" />
             <img className="w-full" src="/logos/tailwind.png" alt="" />
-            <img className="w-full" src="/logos/reactjs.png" alt="" />
+            <img className="w-full" src="/logos/react.png" alt="" />
             <img className="w-full" src="/logos/redux.png" alt="" />
             <img className="w-full" src="/logos/git.png" alt="" />
             <img className="w-full" src="/logos/github.png" alt="" />
