@@ -26,6 +26,14 @@ export const react = [
     linkIcon: <LaunchIcon />,
     gitHubIcon: <GitHubIcon />,
   },
+  {
+    id: 3,
+    linkPath: "https://jayeshtele-airbnb-clone.netlify.app/",
+    gitHubPath: "https://github.com/jayeshtele/airbnb-clone",
+    imagePath: "/assets/airbnb.png",
+    linkIcon: <LaunchIcon />,
+    gitHubIcon: <GitHubIcon />,
+  },
 ];
 
 export const javascript = [
