@@ -14,8 +14,8 @@ export default function Projects() {
         </h3>
         <div className="mb-10 overflow-x-scroll">
           <figure className="flex w-[70vw] md:w-[30vw]">
-            {react.map((reactjs) => (
-              <React.Fragment key={reactjs?.id}>
+            {react.map((reactjs, i) => (
+              <React.Fragment key={i}>
                 <img src={reactjs?.imagePath} alt="" />
                 <div className="icons mr-5 flex flex-col justify-around bg-red-200 px-2">
                   <NavLink
@@ -44,8 +44,8 @@ export default function Projects() {
         </h3>
         <div className="mb-10 overflow-x-scroll">
           <figure className="flex w-[70vw] md:w-[30vw]">
-            {javascript.map((js) => (
-              <React.Fragment key={js?.id}>
+            {javascript.map((js, i) => (
+              <React.Fragment key={i}>
                 <img src={js?.imagePath} alt="" />
                 <div className="icons mr-5 flex flex-col justify-around bg-red-200 px-2">
                   <NavLink
@@ -74,8 +74,8 @@ export default function Projects() {
         </h3>
         <div className="mb-10 overflow-x-scroll">
           <figure className="flex w-[70vw] md:w-[30vw]">
-            {htmlCss.map((hc) => (
-              <React.Fragment key={hc?.id}>
+            {htmlCss.map((hc, i) => (
+              <React.Fragment key={i}>
                 <img src={hc?.imagePath} alt="" />
                 <div className="icons mr-5 flex flex-col justify-around bg-red-200 px-2">
                   <NavLink
