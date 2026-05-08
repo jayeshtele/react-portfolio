@@ -31,9 +31,9 @@ export const react = [
     gitHubIcon: <GitHubIcon />,
   },
   {
-    linkPath: "https://jayesh-tic-tac-game.netlify.app/",
-    gitHubPath: "https://github.com/jayeshtele/Tic-Tac-Toe-App",
-    imagePath: "/assets/TicTacToe.png",
+    linkPath: "https://poetic-creponne-69167b.netlify.app/",
+    gitHubPath: "https://github.com/jayeshtele/Netflix-clone",
+    imagePath: "/assets/Netflix-clone.png",
     linkIcon: <LaunchIcon />,
     gitHubIcon: <GitHubIcon />,
   },
