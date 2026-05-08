@@ -17,6 +17,13 @@ export const react = [
     gitHubIcon: <GitHubIcon />,
   },
   {
+    linkPath: "https://poetic-creponne-69167b.netlify.app/",
+    gitHubPath: "https://github.com/jayeshtele/Netflix-clone",
+    imagePath: "/assets/Netflix-clone.png",
+    linkIcon: <LaunchIcon />,
+    gitHubIcon: <GitHubIcon />,
+  },
+  {
     linkPath: "https://coindasher.netlify.app/",
     gitHubPath: "https://github.com/jayeshtele/crypto-app",
     imagePath: "/assets/coindasher.png",
@@ -27,13 +34,6 @@ export const react = [
     linkPath: "https://jayeshtele-airbnb-clone.netlify.app/",
     gitHubPath: "https://github.com/jayeshtele/airbnb-clone",
     imagePath: "/assets/airbnb.png",
-    linkIcon: <LaunchIcon />,
-    gitHubIcon: <GitHubIcon />,
-  },
-  {
-    linkPath: "https://poetic-creponne-69167b.netlify.app/",
-    gitHubPath: "https://github.com/jayeshtele/Netflix-clone",
-    imagePath: "/assets/Netflix-clone.png",
     linkIcon: <LaunchIcon />,
     gitHubIcon: <GitHubIcon />,
   },
