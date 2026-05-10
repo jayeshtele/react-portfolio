@@ -3,7 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 export const react = [
   {
-    linkPath: "",
+    linkPath: "https://trade-world-weld.vercel.app/",
     gitHubPath: "https://github.com/jayeshtele/Trade-World",
     imagePath: "/assets/Trade-World.png",
     linkIcon: <LaunchIcon />,
