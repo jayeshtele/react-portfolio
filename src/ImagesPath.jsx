@@ -17,7 +17,7 @@ export const react = [
     gitHubIcon: <GitHubIcon />,
   },
   {
-    linkPath: "",
+    linkPath: "https://cab-booking-app-beta.vercel.app/book",
     gitHubPath: "https://github.com/jayeshtele/Cab-Booking-App",
     imagePath: "/assets/Cab-Booking-App.png",
     linkIcon: <LaunchIcon />,
