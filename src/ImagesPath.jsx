@@ -24,6 +24,13 @@ export const react = [
     gitHubIcon: <GitHubIcon />,
   },
   {
+    linkPath: "https://poetic-creponne-69167b.netlify.app/",
+    gitHubPath: "https://github.com/jayeshtele/Netflix-clone",
+    imagePath: "/assets/Netflix-clone.png",
+    linkIcon: <LaunchIcon />,
+    gitHubIcon: <GitHubIcon />,
+  },
+  {
     linkPath: "https://spotify-2-0-melody-music-clone.netlify.app/",
     gitHubPath: "https://github.com/jayeshtele/spotify-2.0-clone",
     imagePath: "/assets/melody.png",
@@ -34,13 +41,6 @@ export const react = [
     linkPath: "https://jayeshtele-weather-app.netlify.app/",
     gitHubPath: "https://github.com/jayeshtele/weather-app",
     imagePath: "/assets/Weather.png",
-    linkIcon: <LaunchIcon />,
-    gitHubIcon: <GitHubIcon />,
-  },
-  {
-    linkPath: "https://poetic-creponne-69167b.netlify.app/",
-    gitHubPath: "https://github.com/jayeshtele/Netflix-clone",
-    imagePath: "/assets/Netflix-clone.png",
     linkIcon: <LaunchIcon />,
     gitHubIcon: <GitHubIcon />,
   },
