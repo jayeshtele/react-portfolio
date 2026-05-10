@@ -14,10 +14,8 @@ export const dashboardImages = {
     "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80",
   workflow:
     "https://images.unsplash.com/photo-1754039985001-ccafee437736?auto=format&fit=crop&w=1400&q=80",
-  code:
-    "https://images.unsplash.com/photo-1774901128215-3549cc686921?auto=format&fit=crop&w=1400&q=80",
-  desk:
-    "https://images.unsplash.com/photo-1763568258498-768e67bf818e?auto=format&fit=crop&w=1400&q=80",
+  code: "https://images.unsplash.com/photo-1774901128215-3549cc686921?auto=format&fit=crop&w=1400&q=80",
+  desk: "https://images.unsplash.com/photo-1763568258498-768e67bf818e?auto=format&fit=crop&w=1400&q=80",
   terminal:
     "https://images.unsplash.com/photo-1754039984985-ef607d80113a?auto=format&fit=crop&w=1400&q=80",
   research:
@@ -31,6 +29,7 @@ export const projectThumbnails = {
   netflixClone: "/assets/Netflix-clone.png",
   melody: "/assets/melody.png",
   weather: "/assets/Weather.png",
+  Ecommerce: "/assets/E-Commerce-App.png",
   cashManager: "/assets/CashManager.png",
   translator: "/assets/TranslaterApp.png",
   stocks: "/assets/Stocks.png",
@@ -114,6 +113,17 @@ export const projects = [
     github: "https://github.com/jayeshtele/weather-app",
     stack: ["React", "API", "Utility"],
     impact: "Data app",
+  },
+  {
+    title: "E-Commerce App",
+    category: "React",
+    image: projectThumbnails.Ecommerce,
+    description:
+      "Scalable ecommerce application with dynamic product listings, intuitive cart management, secure payments, and modern UI interactions.",
+    live: "https://e-commerce-app-lyart-one.vercel.app/products",
+    github: "https://github.com/jayeshtele/E-Commerce-app",
+    stack: ["React", "API", "Utility"],
+    impact: "Shopping app",
   },
   {
     title: "Cash Register Manager",
