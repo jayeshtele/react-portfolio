@@ -1,10 +1,8 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
-import CloseIcon from "@mui/icons-material/Close";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailIcon from "@mui/icons-material/Mail";
-import MenuIcon from "@mui/icons-material/Menu";
 import PersonIcon from "@mui/icons-material/Person";
 import SpaceDashboardIcon from "@mui/icons-material/SpaceDashboard";
 import WorkIcon from "@mui/icons-material/Work";
@@ -49,7 +47,11 @@ function SidebarContent({ onNavigate }) {
   return (
     <div className="flex h-full flex-col">
       <div className="border-b border-slate-800 px-5 py-5">
-        <NavLink to="/" onClick={onNavigate} className="flex items-center gap-3">
+        <NavLink
+          to="/"
+          onClick={onNavigate}
+          className="flex items-center gap-3"
+        >
           <img
             src="/assets/dashboard-mark.svg"
             alt="Jayesh dashboard mark"
@@ -74,7 +76,9 @@ function SidebarContent({ onNavigate }) {
             className="h-14 w-14 rounded-full border border-teal-300/40 object-cover"
           />
           <div className="min-w-0">
-            <p className="truncate text-sm font-bold text-white">{profile.name}</p>
+            <p className="truncate text-sm font-bold text-white">
+              {profile.name}
+            </p>
             <p className="truncate text-xs text-slate-400">{profile.role}</p>
           </div>
         </div>
@@ -151,7 +155,7 @@ export default function DashboardLayout() {
         </div>
       </header>
 
-      <main className="min-h-screen pb-24 lg:pl-72 lg:pb-0">
+      <main className="min-h-screen pb-24 lg:pb-0 lg:pl-72">
         <div className="mx-auto w-full max-w-[1500px] px-4 py-5 sm:px-6 lg:px-8 lg:py-8">
           <Outlet />
         </div>
