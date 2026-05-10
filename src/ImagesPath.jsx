@@ -10,7 +10,7 @@ export const react = [
     gitHubIcon: <GitHubIcon />,
   },
   {
-    linkPath: "",
+    linkPath: "https://hotel-booking-app-one-omega.vercel.app/",
     gitHubPath: "https://github.com/jayeshtele/Hotel-Booking-App",
     imagePath: "/assets/Hotel-Booking-App.png",
     linkIcon: <LaunchIcon />,
