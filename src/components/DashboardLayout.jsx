@@ -117,7 +117,6 @@ function SidebarContent({ onNavigate }) {
 }
 
 export default function DashboardLayout() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { pathname } = useLocation();
 
   const activePage = useMemo(() => {
@@ -149,34 +148,8 @@ export default function DashboardLayout() {
               </p>
             </div>
           </NavLink>
-          <button
-            type="button"
-            onClick={() => setIsMenuOpen(true)}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-700 text-slate-200"
-            aria-label="Open navigation"
-          >
-            <MenuIcon />
-          </button>
         </div>
       </header>
-
-      {isMenuOpen && (
-        <div className="fixed inset-0 z-40 bg-black/70 lg:hidden">
-          <aside className="h-full w-[86vw] max-w-sm border-r border-slate-800 bg-[#0b1020]">
-            <div className="flex justify-end px-4 pt-4">
-              <button
-                type="button"
-                onClick={() => setIsMenuOpen(false)}
-                className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-700 text-slate-200"
-                aria-label="Close navigation"
-              >
-                <CloseIcon />
-              </button>
-            </div>
-            <SidebarContent onNavigate={() => setIsMenuOpen(false)} />
-          </aside>
-        </div>
-      )}
 
       <main className="min-h-screen pb-24 lg:pl-72 lg:pb-0">
         <div className="mx-auto w-full max-w-[1500px] px-4 py-5 sm:px-6 lg:px-8 lg:py-8">
