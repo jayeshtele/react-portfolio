@@ -120,7 +120,7 @@ export const projects = [
     image: projectThumbnails.Ecommerce,
     description:
       "Scalable ecommerce application with dynamic product listings, intuitive cart management, secure payments, and modern UI interactions.",
-    live: "https://e-commerce-app-lyart-one.vercel.app/products",
+    live: "https://e-commerce-app-lyart-one.vercel.app/",
     github: "https://github.com/jayeshtele/E-Commerce-app",
     stack: ["React", "API", "Utility"],
     impact: "Shopping app",
