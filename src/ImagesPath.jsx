@@ -3,6 +3,27 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 export const react = [
   {
+    linkPath: "",
+    gitHubPath: "https://github.com/jayeshtele/Trade-World",
+    imagePath: "/assets/Trade-World.png",
+    linkIcon: <LaunchIcon />,
+    gitHubIcon: <GitHubIcon />,
+  },
+  {
+    linkPath: "",
+    gitHubPath: "https://github.com/jayeshtele/Hotel-Booking-App",
+    imagePath: "/assets/Hotel-Booking-App.png",
+    linkIcon: <LaunchIcon />,
+    gitHubIcon: <GitHubIcon />,
+  },
+  {
+    linkPath: "",
+    gitHubPath: "https://github.com/jayeshtele/Cab-Booking-App",
+    imagePath: "/assets/Cab-Booking-App.png",
+    linkIcon: <LaunchIcon />,
+    gitHubIcon: <GitHubIcon />,
+  },
+  {
     linkPath: "https://spotify-2-0-melody-music-clone.netlify.app/",
     gitHubPath: "https://github.com/jayeshtele/spotify-2.0-clone",
     imagePath: "/assets/melody.png",
@@ -20,20 +41,6 @@ export const react = [
     linkPath: "https://poetic-creponne-69167b.netlify.app/",
     gitHubPath: "https://github.com/jayeshtele/Netflix-clone",
     imagePath: "/assets/Netflix-clone.png",
-    linkIcon: <LaunchIcon />,
-    gitHubIcon: <GitHubIcon />,
-  },
-  {
-    linkPath: "https://coindasher.netlify.app/",
-    gitHubPath: "https://github.com/jayeshtele/crypto-app",
-    imagePath: "/assets/coindasher.png",
-    linkIcon: <LaunchIcon />,
-    gitHubIcon: <GitHubIcon />,
-  },
-  {
-    linkPath: "https://jayeshtele-airbnb-clone.netlify.app/",
-    gitHubPath: "https://github.com/jayeshtele/airbnb-clone",
-    imagePath: "/assets/airbnb.png",
     linkIcon: <LaunchIcon />,
     gitHubIcon: <GitHubIcon />,
   },
