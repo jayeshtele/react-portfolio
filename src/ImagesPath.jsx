@@ -24,7 +24,7 @@ export const react = [
     gitHubIcon: <GitHubIcon />,
   },
   {
-    linkPath: "https://poetic-creponne-69167b.netlify.app/",
+    linkPath: "https://netflix-clone-liard-nine-15.vercel.app/",
     gitHubPath: "https://github.com/jayeshtele/Netflix-clone",
     imagePath: "/assets/Netflix-clone.png",
     linkIcon: <LaunchIcon />,
