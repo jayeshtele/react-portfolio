@@ -1,116 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* {
-    margin: 0;
-    padding: 0;
+:root {
+  color-scheme: dark;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #070a12;
+  color: #e5eef8;
 }
 
-:root {
-    font-size: 16px;
-    --playfair: 'Playfair Display', serif;
-    --background-color: #0f1014;
-    --text-color: #f4f4f4;
-    --nav-icons-color: #777;
-    --container-section-color: #f52225;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    box-sizing: border-box;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font-family: var(--playfair);
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(90deg, rgba(20, 184, 166, 0.04) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(148, 163, 184, 0.04) 1px, transparent 1px),
+    #070a12;
+  background-size: 64px 64px;
 }
 
-.hero-section {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to top right, #0f1014 10%, transparent), url("https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1812&q=80");
-    background-size: cover;
-    background-position: center;
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
 
-@media (min-width: 1024px) {
-
-    .sidenav-icons:hover .sidenav-icons-hover span {
-        visibility: visible;
-        transform: translateX(45px);
-    }
-
-    .sidenav-icons-hover {
-        color: var(--nav-icons-color);
-        transition: all 0.3s ease-out;
-    }
-
-    .sidenav-icons-hover:hover {
-        transform: scale(1.3) translateX(2px);
-        color: var(--text-color);
-    }
-
-    .sidenav-icons-hover span {
-        visibility: hidden;
-        transform: translateX(25px);
-        transition: all 0.2s ease-out;
-
-    }
-
-    .sidenav::before {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 100%;
-        background-color: var(--background-color);
-        z-index: 9;
-        transition: all 0.2s ease-out;
-    }
-
-    .sidenav:hover::before {
-        box-shadow: 10px 0 150px 200px var(--background-color);
-    }
-
-    ::-webkit-scrollbar {
-        height: 10px;
-        width: 10px;
-    }
-
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px var(--nav-icons-color);
-        border-radius: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: var(--nav-icons-color);
-        border-radius: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        background: var(--nav-icons-color);
-    }
+img {
+  display: block;
 }
 
-.sidenav-icons-hover {
-    color: var(--nav-icons-color);
+::selection {
+  background: rgba(45, 212, 191, 0.32);
+  color: #ffffff;
 }
 
-.sidenav-icons-hover span {
-    transform: translateX(25px);
-    visibility: hidden;
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
 }
 
-/* .active {
-    color: var(--text-color);
+::-webkit-scrollbar-track {
+  background: #0b1020;
 }
 
-.active::before {
-    position: absolute;
-    content: "";
-    border-radius: 50%;
-    background: transparent;
-    width: 0px;
-    height: 0px;
-    z-index: -1;
-    box-shadow: 0 0 10px 20px rgb(99, 94, 94);
-} */
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border: 2px solid #0b1020;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5eead4;
+}
