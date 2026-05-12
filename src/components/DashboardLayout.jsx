@@ -59,7 +59,7 @@ function SidebarContent({ onNavigate }) {
           />
           <div>
             <p className="text-sm font-black uppercase tracking-[0.2em] text-slate-100">
-              Jayesh
+              Jayesh Tele
             </p>
             <p className="text-xs font-semibold text-teal-300">
               Dashboard Portfolio
