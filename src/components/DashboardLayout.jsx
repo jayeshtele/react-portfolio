@@ -145,7 +145,7 @@ export default function DashboardLayout() {
             />
             <div>
               <p className="text-sm font-black uppercase tracking-[0.18em]">
-                Jayesh
+                Jayesh Tele
               </p>
               <p className="text-xs text-teal-300">
                 {activePage?.label || "Dashboard"}
