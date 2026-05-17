@@ -109,7 +109,7 @@ export const projects = [
     image: projectThumbnails.weather,
     description:
       "Forecast utility with focused weather states, location search, and practical data display.",
-    live: "https://jayeshtele-weather-app.netlify.app/",
+    live: "https://weather-app-orpin-pi-41.vercel.app/",
     github: "https://github.com/jayeshtele/weather-app",
     stack: ["React", "API", "Utility"],
     impact: "Data app",
