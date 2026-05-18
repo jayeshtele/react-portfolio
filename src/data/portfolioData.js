@@ -26,6 +26,7 @@ export const projectThumbnails = {
   tradeWorld: "/assets/Trade-World.png",
   hotelBooking: "/assets/Hotel-Booking-App.png",
   cabBooking: "/assets/Cab-Booking-App.png",
+  social: "/assets/Social-Media-App.png",
   netflixClone: "/assets/Netflix-clone.png",
   melody: "/assets/melody.png",
   weather: "/assets/Weather.png",
@@ -69,6 +70,28 @@ export const projects = [
     github: "https://github.com/jayeshtele/Hotel-Booking-App",
     stack: ["React", "Routing", "UI"],
     impact: "Travel flow",
+  },
+  {
+    title: "Cab Booking App",
+    category: "React",
+    image: projectThumbnails.cabBooking,
+    description:
+      "Transport booking interface designed around quick scanning, route selection, and clear actions.",
+    live: "https://cab-booking-app-one.vercel.app/",
+    github: "https://github.com/jayeshtele/Cab-Booking-App",
+    stack: ["React", "Forms", "CSS"],
+    impact: "Service app",
+  },
+  {
+    title: "Social Media App",
+    category: "React",
+    image: projectThumbnails.social,
+    description:
+      "A social media interface focused on user-generated content, real-time updates, and seamless sharing experiences.",
+    live: "https://social-media-app-ashy-two.vercel.app/",
+    github: "https://github.com/jayeshtele/Social-Media-App",
+    stack: ["React", "Firebase", "UI"],
+    impact: "Community platform",
   },
   {
     title: "Cab Booking App",
