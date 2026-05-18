@@ -94,17 +94,6 @@ export const projects = [
     impact: "Community platform",
   },
   {
-    title: "Cab Booking App",
-    category: "React",
-    image: projectThumbnails.cabBooking,
-    description:
-      "Transport booking interface designed around quick scanning, route selection, and clear actions.",
-    live: "https://cab-booking-app-one.vercel.app/",
-    github: "https://github.com/jayeshtele/Cab-Booking-App",
-    stack: ["React", "Forms", "CSS"],
-    impact: "Service app",
-  },
-  {
     title: "Netflix Clone",
     category: "React",
     image: projectThumbnails.netflixClone,
