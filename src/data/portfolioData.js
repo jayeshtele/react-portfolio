@@ -50,6 +50,17 @@ export const projectThumbnails = {
 };
 
 export const projects = [
+   {
+    title: "Food Delivery App",
+    category: "React",
+    image: projectThumbnails.food,
+    description:
+      "A food delivery interface focused on restaurant browsing, order placement, and real-time tracking.",
+    live: "https://food-delivery-app-zeta-lyart.vercel.app/",
+    github: "https://github.com/jayeshtele/Trade-World",
+    stack: ["React", "CSS", "Vercel"],
+    impact: "Commerce UI",
+  },
   {
     title: "Trade World",
     category: "React",
@@ -137,17 +148,6 @@ export const projects = [
     github: "https://github.com/jayeshtele/E-Commerce-app",
     stack: ["React", "API", "Utility"],
     impact: "Shopping app",
-  },
-  {
-    title: "Food Delivery App",
-    category: "React",
-    image: projectThumbnails.food,
-    description:
-      "A food delivery interface focused on restaurant browsing, order placement, and real-time tracking.",
-    live: "https://food-delivery-app-zeta-lyart.vercel.app/",
-    github: "https://github.com/jayeshtele/Trade-World",
-    stack: ["React", "CSS", "Vercel"],
-    impact: "Commerce UI",
   },
   {
     title: "Cash Register Manager",
