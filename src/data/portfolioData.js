@@ -56,7 +56,7 @@ export const projects = [
     image: projectThumbnails.food,
     description:
       "A food delivery interface focused on restaurant browsing, order placement, and real-time tracking.",
-    live: "https://food-delivery-app-zeta-lyart.vercel.app/",
+    live: "https://food-delivery-app-bay-six.vercel.app/",
     github: "https://github.com/jayeshtele/Trade-World",
     stack: ["React", "CSS", "Vercel"],
     impact: "Commerce UI",
